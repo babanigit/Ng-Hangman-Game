@@ -1,7 +1,9 @@
 <div class="hangman">
-    <app-hangman-display />
+    <app-hangman-display [guesses]="guesses" />
 
     <app-hangman-question />
 
     <app-hangman-keyboard />
 </div>
+
+<button (click)="dummyClick()" > click</button>
