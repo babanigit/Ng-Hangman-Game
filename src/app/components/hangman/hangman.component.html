@@ -6,4 +6,9 @@
     <app-hangman-keyboard />
 </div>
 
+<div *ngIf="loadingState">
+  <!-- Loading spinner or message -->
+  <p>Loading...</p>
+</div>
+
 <button (click)="dummyClick()" > click</button>
